@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACE QUIZ</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<header>
+<center>
+<h1>PACE QUIZ</h1>
+</center>
+</header>
+<div class="questionlist">
+<div class="questions">
+    <h2>1.Which instrument on the PACE satellite is specifically designed to measure ocean color and help assess marine ecosystems?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   Cloud Profiling Radar (CPR)</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Spectro-Polarimeter for Planetary Exploration (SPPEX)</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">C   Ocean Color Radiometer</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Infrared Atmospheric Sounding Interferometer (IASI)</button>
+</div>
+<div class="questions">
+    <h2>2.What is the primary mission of the PACE satellite?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   Weather forecasting</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Monitoring global biodiversity</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">C   Studying the interactions between the ocean and atmosphere</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Measuring cosmic radiation</button>
+</div>
+<div class="questions">
+    <h2>3.Which organization is responsible for the development and launch of the PACE satellite?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   European Space Agency (ESA)</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">B   NASA</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   ISRO</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Roscomos</button>
+</div>
+<div class="questions">
+    <h2>4.PACE satellite is designed to study which of the following key components of the Earth system?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">A   Plankton, Aerosols, and Clouds</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Volcanoes, Tectonic Plates, and Earthquakes</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   Forests, Rivers, and Wildlife</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Glaciers, Mountains, and Deserts</button>
+</div>
+<div class="questions">
+    <h2>5.What does the acronym "PACE" stand for in the context of the satellite?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   Planetary Analysis for Climate Environment</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">B   Plankton, Aerosol, Cloud, ocean Ecosystem</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   Polar Atmospheric Climate Explorer</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Planetary Aerosol Cloud Exploration</button>
+</div>
+<div class="questions">
+    
+    <h2>7.Which of the following is a major instrument onboard the PACE satellite?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   LiDAR</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Ocean Color Imager</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   Ozone Mapping Profiler Suite (OMPS)</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">D   Hyper-Angular Rainbow Polarimeter (HARP2)</button>
+</div>
+<div class="questions">
+    <h2>6.What type of data will the PACE satellite collect?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   Solar radiation data</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Atmospheric composition and land cover data</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">C   Ocean color, cloud cover, and atmospheric particles data</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Space weather data</button>
+</div>
+<div class="questions">
+    <h2>8.How does the PACE satellite contribute to climate research?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">A   By measuring changes in the polar ice caps</button>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">B   By providing detailed data on the carbon cycle and how plankton absorb CO2</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   By studying the weather patterns on other planets</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   By monitoring tectonic plate movements</button>
+</div>
+<div class="questions">
+    <h2>9.The PACE satellite's data will help improve our understanding of which of the following environmental factors?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">A   Marine ecosystems and the health of coral reefs</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Earth's gravity field</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   Plate tectonics</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Earthquake prediction</button>
+</div>
+<div class="questions">
+    <h2>10.Which of the following is a potential application of PACE data?</h2>
+    <button class="btn" onclick="checkAnswer(this, 'correct')">A   Tracking ocean acidification</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">B   Measuring soil moisture levels</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">C   Predicting volcanic eruptions</button>
+    <button class="btn" onclick="checkAnswer(this, 'incorrect')">D   Monitoring forest fires</button>
+</div>
+<br>
+<button onclick="showscore()">SCORE</button>
+<h1 id="result" style="color: whitesmoke"></h3>
+<script src="quiz.js"></script>
+</body>

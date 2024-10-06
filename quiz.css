@@ -1,0 +1,45 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body
+{
+  background-color: black;
+}
+h1{
+  color: orange;
+}
+.quest ul li
+{
+  display: flex;
+  flex-direction: column;
+}
+.btn
+{
+  display: flex;
+  flex-direction: column;
+  
+  border: 1px solid black;
+  width: 500px;
+  padding: 2px;
+}
+.btn:hover
+{
+  background-color: orange;
+  color: black;
+}
+h2{
+  color: orange;
+}
+.questions{
+  border: 1px solid orange;
+  padding: 10px;
+}
+.correct
+{
+  background-color: greenyellow;
+}
+.incorrect
+{
+  background-color:red;
+}
