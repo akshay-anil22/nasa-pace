@@ -94,3 +94,12 @@ header ul li:hover
 .container h1{
   padding-top: 10px;
 }
+.clrspec 
+{
+  padding-left: 230px ;
+  color: white;
+}
+.clrspec ul li  
+{
+  list-style-type: none;
+}
